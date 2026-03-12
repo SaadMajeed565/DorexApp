@@ -9,6 +9,14 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "scripts": {
+  "build": "nuxt build",
+  "dev": "nuxt dev",
+  "generate": "nuxt generate",
+  "preview": "nuxt preview",
+  "deploy": "npm run generate && gh-pages -d .output/public",
+  "postinstall": "nuxt prepare"
+},
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
     "@nuxt/icon": "^2.1.0",
