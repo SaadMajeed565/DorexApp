@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   ],
 
   app: {
-    baseURL: '/TenantWebsite/', // must match your GitHub repo name
+    baseURL: '/DorexApp/', // must match your GitHub repo name
     head: {
       title: 'ISP Management Software',
       htmlAttrs: {
